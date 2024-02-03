@@ -2,14 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity Engine;
 
-// I want to say the bottom two declares the type as public, since C# recquires you to declare first 
+// You will also need to make an Audio Source your object 
 public AudioExample : MonoBehavior 
 {
     public AudioClip source;
     public AudioClip clip;
 
     
-//voidUpd
     voidUpdate()
     {
         if(Input.GetKeyDown(KeyCode.A))
